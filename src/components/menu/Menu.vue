@@ -29,12 +29,16 @@ const props = defineProps({
     flex-direction:row;
     align-items:center;
     justify-content:flex-start;
-    background-color:white;
-    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.15);
+    background: linear-gradient(to right, #afafaf, #c8c8c7);
+    box-sizing:border-box;
+    padding:0px 24px;
+    box-shadow: -10px 10px 10px 0px rgba(255,255,255,0.15);
+    border-radius:24px;
     .menu-entry {
         box-sizing:border-box;
         padding:12px;
-        font-size:18px;
+        font-size:24px;
+        color: #000000;
     }
 }
 </style>

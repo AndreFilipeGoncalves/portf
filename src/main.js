@@ -11,7 +11,7 @@ import 'element-plus/lib/theme-chalk/index.css'
 import 'normalize.css'
 
 /* i18n */
-import english from '@/locales/en.json'
+import english from '@/locales/en/app.json'
 import { createI18n } from 'vue-i18n'
 const i18n = createI18n({
     locale: 'en',
