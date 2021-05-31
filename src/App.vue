@@ -1,5 +1,7 @@
 <template>
-    <Menu :menuEntries="menuEntries"/>
+    <div class="menu-container">
+        <Menu :menuEntries="menuEntries"/>
+    </div>
     <router-view/>
 </template>
 
@@ -23,4 +25,17 @@ const menuEntries = [{
 </script>
 
 <style lang="scss">
+html, body, #app {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background: linear-gradient(to right, #afafaf, #c8c8c7);
+    font-family: 'Alegreya', serif;
+}
+.menu-container {
+    width:100%;
+    display:flex;
+    box-sizing:border-box;
+    padding:24px 32px;
+}
 </style>
